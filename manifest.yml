@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: wz5088
+  host: wz5088
+  disk_quota: 1024M
+  services:
+  - wz5088-AdvancedMobileAccess
+  - wz5088-imfpush
+  - wz5088-cloudantNoSQLDB
